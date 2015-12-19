@@ -1,0 +1,1053 @@
+Build at четверг, 17 декабря 2015 г. 03:34:52 (NOVT)
+===============================================================
+
+1.	/Users/va.smirnov/2gis/v4_env/thirdparty-ios/Src/Masonry/Masonry/NSArray+MASAdditions.m:50:27: comparison of integers of different signs: 'int' and 'NSUInteger' (aka 'unsigned long') [-Wsign-compare]
+	for (int i = 0; i < self.count; i++) {
+	e.tyutyuev
+	<tea.net@me.com>
+	----------------------------------------------------------- 
+
+2.	/Users/va.smirnov/2gis/v4_env/thirdparty-ios/Src/Masonry/Masonry/NSArray+MASAdditions.m:70:27: comparison of integers of different signs: 'int' and 'NSUInteger' (aka 'unsigned long') [-Wsign-compare]
+	for (int i = 0; i < self.count; i++) {
+	e.tyutyuev
+	<tea.net@me.com>
+	----------------------------------------------------------- 
+
+3.	/Users/va.smirnov/2gis/v4_env/thirdparty-ios/Src/Masonry/Masonry/NSArray+MASAdditions.m:99:27: comparison of integers of different signs: 'int' and 'NSUInteger' (aka 'unsigned long') [-Wsign-compare]
+	for (int i = 0; i < self.count; i++) {
+	e.tyutyuev
+	<tea.net@me.com>
+	----------------------------------------------------------- 
+
+4.	/Users/va.smirnov/2gis/v4_env/thirdparty-ios/Src/Masonry/Masonry/NSArray+MASAdditions.m:122:27: comparison of integers of different signs: 'int' and 'NSUInteger' (aka 'unsigned long') [-Wsign-compare]
+	for (int i = 0; i < self.count; i++) {
+	e.tyutyuev
+	<tea.net@me.com>
+	----------------------------------------------------------- 
+
+5.	/Users/va.smirnov/2gis/v4_env/v4sdk/v4core/Projects/ObjectInfoModule/ObjectInfoModule.h:16:39: 'GetContextItemCreators' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual Gears::ContextItemCreatorMap GetContextItemCreators(Gears::factory_tag tag);
+	Ильиных Данил Сергеевич
+	<d.ilinyh@2gis.ru>
+	----------------------------------------------------------- 
+
+6.	/Users/va.smirnov/2gis/v4_env/v4ios/Src/GrymKit/src/GRKDistanceCalculator.mm:51:82: format specifies type 'unsigned long long' but the argument has type 'const DB4::RecordId' [-Wformat]
+	NSString *stringGuid = [NSString stringWithFormat:@"0", object_geo_info.object_id];
+	Vadim Smirnov
+	<va.smirnov@2gis.ru>
+	----------------------------------------------------------- 
+
+7.	/Users/va.smirnov/2gis/v4_env/v4sdk/software/Projects/UniFS/src/OpenedFileEncryptionWrapper.h:26:11: private field 'seed_' is not used [-Wunused-private-field]
+	uint32_t seed_;
+	Кухаренок Федор Федорович
+	<f.kuharenok@2Gis.ru>
+	----------------------------------------------------------- 
+
+8.	/Users/va.smirnov/2gis/v4_env/v4sdk/software/Projects/adwpack/src/DataStorage.h:13:1: 'DataStorage' defined as a class here but previously declared as a struct [-Wmismatched-tags]
+	class DataStorage
+	Родченко Алексей Викторович
+	<a.rodchenko@2gis.ru>
+	----------------------------------------------------------- 
+
+9.	/Users/va.smirnov/2gis/v4_env/v4sdk/software/Projects/adwpack/src/DataStorage.h:13:1: 'DataStorage' defined as a class here but previously declared as a struct [-Wmismatched-tags]
+	class DataStorage
+	Родченко Алексей Викторович
+	<a.rodchenko@2gis.ru>
+	----------------------------------------------------------- 
+
+10.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/sqlite/sqlite3.c:25861:6: "gethostuuid() is disabled." [-W#warnings]
+	# warning "gethostuuid() is disabled."
+	Охохонин Александр Иванович
+	<ohohonin@2gis.ru>
+	----------------------------------------------------------- 
+
+11.	/Users/va.smirnov/2gis/v4_env/v4sdk/boost/boost/boost/spirit/home/qi/numeric/detail/real_impl.hpp:72:47: comparison of integers of different signs: 'int' and 'std::size_t' (aka 'unsigned long') [-Wsign-compare]
+	if (is_floating_point<T>() && exp > max_exp)
+	Басканов Антон Сергеевич
+	<a.baskanov@2gis.ru>
+	----------------------------------------------------------- 
+
+12.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/2gis_icu_initialization.cpp:55:3: suggest braces around initialization of subobject [-Wmissing-braces]
+	32, /Applications /Library /Network /System /Users /Volumes /bin /cores /dev /etc /home /installer.failurerequests /net /private /sbin /tmp /usr /var header size Deploy/ Helpers/ mod_pbxproj/
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+13.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/locdispnames.cpp:284:19: unused variable '_kRootName' [-Wunused-const-variable]
+	static const char _kRootName[] = "root";
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+14.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/locid.cpp:454:10: reference cannot be bound to dereferenced null pointer in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+	if (&other == NULL) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+15.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/locmap.c:166:1: unused variable 'locmap_ber' [-Wunused-const-variable]
+	ILCID_POSIX_SUBTABLE(ber) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+16.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/normlzr.cpp:67:20: unused variable '_NUL' [-Wunused-const-variable]
+	static const UChar _NUL=0;
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+17.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/putil.c:821:23: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	for (idx = 0; idx < (int32_t)sizeof(OFFSET_ZONE_MAPPINGS)/sizeof(OFFSET_ZONE_MAPPINGS[0]); idx++)
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+18.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/putil.c:1203:10: unused variable 'datadir_path_buffer' [-Wunused-variable]
+	char datadir_path_buffer[PATH_MAX];
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+19.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/putil.c:156:19: unused variable 'copyright' [-Wunused-const-variable]
+	static const char copyright[] = U_COPYRIGHT_STRING;
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+20.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnv.c:293:43: comparison of integers of different signs: 'uint32_t' (aka 'unsigned int') and 'int' [-Wsign-compare]
+	if (cnv->sharedData->referenceCounter != ~0) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+21.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnv.c:383:49: comparison of integers of different signs: 'uint32_t' (aka 'unsigned int') and 'int' [-Wsign-compare]
+	if (converter->sharedData->referenceCounter != ~0) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+22.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnv2022.c:79:19: unused variable 'SHIFT_OUT_STR' [-Wunused-const-variable]
+	static const char SHIFT_OUT_STR[] = "";
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+23.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnv_bld.c:598:59: comparison of integers of different signs: 'uint32_t' (aka 'unsigned int') and 'int' [-Wsign-compare]
+	if(sharedData != NULL && sharedData->referenceCounter != ~0) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+24.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnv_bld.c:613:59: comparison of integers of different signs: 'uint32_t' (aka 'unsigned int') and 'int' [-Wsign-compare]
+	if(sharedData != NULL && sharedData->referenceCounter != ~0) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+25.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnv_bld.c:906:59: comparison of integers of different signs: 'const uint32_t' (aka 'const unsigned int') and 'int' [-Wsign-compare]
+	if(sharedData == NULL || sharedData->referenceCounter != ~0) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+26.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnv_bld.c:1399:19: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if( length<sizeof(UConverterStaticData) ||
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+27.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnv_bld.c:1440:31: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(0<=length && length<sizeof(_MBCSHeader)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+28.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnvisci.c:1429:106: comparison of integers of different signs: 'unsigned int' and 'UChar32' (aka 'int') [-Wsign-compare]
+	(*toUnicodeStatus + PNJ_DELTA) == PNJ_SIGN_VIRAMA && (targetUniChar + PNJ_DELTA) == data->prevToUnicodeStatus) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+29.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnvmbcs.c:988:19: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	for(i=0; i<sizeof(gb18030Ranges)/sizeof(gb18030Ranges[0]); range+=4, ++i) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+30.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ucnvmbcs.c:1055:19: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	for(i=0; i<sizeof(gb18030Ranges)/sizeof(gb18030Ranges[0]); range+=4, ++i) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+31.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/udataswp.c:252:29: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if( (length>=0 && length<sizeof(DataHeader)) ||
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+32.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/udataswp.c:372:29: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	(length>=0 && length<sizeof(DataHeader)) ||
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+33.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/udataswp.c:380:29: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if( (length>=0 && length<sizeof(DataHeader)) ||
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+34.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uhash.c:400:29: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if (++newPrimeIndex >= PRIMES_LENGTH) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+35.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uhash.c:553:13: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	while (i<(PRIMES_LENGTH-1) && PRIMES[i]<size) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+36.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ulist.c:132:24: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if (length == uprv_strlen(pointer->data)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+37.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uloc.c:1652:43: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	(result == NULL || resultCapacity < sizeof(localeBuffer))) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+38.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uloc_tag.c:661:16: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if (keyLen >= sizeof(keyBuf)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+39.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uloc_tag.c:723:19: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if (bcpKeyLen >= sizeof(bcpKeyBuf)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+40.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uloc_tag.c:801:16: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if (keyLen >= sizeof(keyBuf)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+41.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uloc_tag.c:820:17: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if (typeLen >= sizeof(typeBuf)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+42.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uloc_tag.c:919:16: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if (keyLen >= sizeof(keyBuf)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+43.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uloc_tag.c:1204:66: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if (uprv_strcmp(pVar,POSIX_VALUE) || len != uprv_strlen(POSIX_VALUE)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+44.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/unames.c:1289:15: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	for(i=0; i<LENGTHOF(charCatNames); ++i) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+45.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/unames.c:1379:37: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	for(lineNumber=0; lineNumber<LINES_PER_GROUP; ++lineNumber) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+46.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/unames.c:1436:15: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	for(i=0; i<sizeof(extChars)-1; ++i) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+47.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/unistr.cpp:465:6: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+	if(this == 0 || this == &src) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+48.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/unistr.cpp:470:7: reference cannot be bound to dereferenced null pointer in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+	if(&src == 0 || src.isBogus()) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+49.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/unorm_it.c:559:38: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(stackMem!=NULL && stackMemSize>=sizeof(UNormIterator)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+50.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ures_cnv.c:44:18: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(length>=sizeof(pathBuffer)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+51.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ures_cnv.c:62:22: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(length>=sizeof(pathBuffer)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+52.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uresbund.c:879:29: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(capacity <= sizeof(stackAlias)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+53.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/uresdata.c:1056:26: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(resFlagsLength<=sizeof(stackResFlags)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+54.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ushape.c:1544:22: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(outputSize<=sizeof(buffer)/U_SIZEOF_UCHAR) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+55.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/ustrcase.c:487:24: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(destCapacity<=(sizeof(buffer)/U_SIZEOF_UCHAR)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+56.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/utrace.c:147:16: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	for (i=0; i<sizeof(void *); i++) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+57.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/utrie.c:865:14: comparison of integers of different signs: 'int32_t' (aka 'int') and 'unsigned long' [-Wsign-compare]
+	if(length<sizeof(UTrieHeader)) {
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+58.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/icu/source/common/utrie2_builder.c:1266:18: comparison of unsigned enum expression < 0 is always false [-Wtautological-compare]
+	valueBits<0 || UTRIE2_COUNT_VALUE_BITS<=valueBits
+	Назин Александр Викторович
+	<a.nazin@2gis.ru>
+	----------------------------------------------------------- 
+
+59.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Execution/src/MatchesAnalyzer.cpp:39:34: '&&' within '||' [-Wlogical-op-parentheses]
+	if (record !=c_null_record_ptr && record != cur_record || title_idx != cur_title_idx)
+	Konstantin Sharenkov
+	<k.sharenkov@2gis.ru>
+	----------------------------------------------------------- 
+
+60.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Execution/src/ResultDiagnosis.cpp:234:36: '&&' within '||' [-Wlogical-op-parentheses]
+	&& (num_hierarchy_features_ == 1 && !parent_feature_.IsThere()
+	Konstantin Sharenkov
+	<k.sharenkov@2gis.ru>
+	----------------------------------------------------------- 
+
+61.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Execution/src/ResultDiagnosis.cpp:236:32: '&&' within '||' [-Wlogical-op-parentheses]
+	|| num_direct_features_ == 0 && parent_feature_.IsThere()))
+	Konstantin Sharenkov
+	<k.sharenkov@2gis.ru>
+	----------------------------------------------------------- 
+
+62.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Normalization/src/TextNormalizerOps.cpp:20:52: expression with side effects will be evaluated despite being used as an operand to 'typeid' [-Wpotentially-evaluated-expression]
+	std::type_info const& normalizer_type_id = typeid(*normalizer.get());
+	Konstantin Sharenkov
+	<k.sharenkov@2gis.ru>
+	----------------------------------------------------------- 
+
+63.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Normalization/src/TextNormalizerOps.cpp:66:52: expression with side effects will be evaluated despite being used as an operand to 'typeid' [-Wpotentially-evaluated-expression]
+	std::type_info const& normalizer_type_id = typeid(*normalizer.get());
+	Konstantin Sharenkov
+	<k.sharenkov@2gis.ru>
+	----------------------------------------------------------- 
+
+64.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Parsing/src/TokenizerOps.cpp:30:51: expression with side effects will be evaluated despite being used as an operand to 'typeid' [-Wpotentially-evaluated-expression]
+	std::type_info const& tokenizer_type_id = typeid(*tokenizer.get());
+	Криницын Александр Сергеевич
+	<a.krinicyn@2gis.ru>
+	----------------------------------------------------------- 
+
+65.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Parsing/src/TokenizerOps.cpp:169:51: expression with side effects will be evaluated despite being used as an operand to 'typeid' [-Wpotentially-evaluated-expression]
+	std::type_info const& tokenizer_type_id = typeid(*tokenizer.get());
+	Криницын Александр Сергеевич
+	<a.krinicyn@2gis.ru>
+	----------------------------------------------------------- 
+
+66.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Suggestor/src/ContextsSuggestCompatibility.cpp:177:23: '&&' within '||' [-Wlogical-op-parentheses]
+	if (from_ontological && to_geo || from_geo && to_ontological)
+	Konstantin Sharenkov
+	<k.sharenkov@2gis.ru>
+	----------------------------------------------------------- 
+
+67.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Suggestor/src/ContextsSuggestCompatibility.cpp:177:45: '&&' within '||' [-Wlogical-op-parentheses]
+	if (from_ontological && to_geo || from_geo && to_ontological)
+	Konstantin Sharenkov
+	<k.sharenkov@2gis.ru>
+	----------------------------------------------------------- 
+
+68.	/Users/va.smirnov/2gis/v4_env/v4sdk/unisearch2/Projects/UniSearch_Impl_Suggestor/src/SuggestDetailedHandler.cpp:169:4: '&&' within '||' [-Wlogical-op-parentheses]
+	&& (opt_words_mask | stop_words_mask).TestBit(last_token_idx);
+	Konstantin Sharenkov
+	<k.sharenkov@2gis.ru>
+	----------------------------------------------------------- 
+
+69.	/Users/va.smirnov/2gis/v4_env/v4sdk/v4core/Projects/ObjectInfoModule/ObjectInfoModule.h:16:39: 'GetContextItemCreators' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual Gears::ContextItemCreatorMap GetContextItemCreators(Gears::factory_tag tag);
+	Ильиных Данил Сергеевич
+	<d.ilinyh@2gis.ru>
+	----------------------------------------------------------- 
+
+70.	/Users/va.smirnov/2gis/v4_env/v4sdk/thirdparty/Src/pcre/pcre/pcre_exec.c:171:6: unused variable 'utf' [-Wunused-variable]
+	BOOL utf = md->utf;
+	Кудрин Игорь Владимирович
+	<i.kudrin@2gis.ru>
+	----------------------------------------------------------- 
+
+71.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/DrivingDirectionItem.h:52:19: 'LengthCost' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual unsigned LengthCost() const;
+	Отпущенников Илья Владимирович
+	<i.otpuschennikov@2gis.ru>
+	----------------------------------------------------------- 
+
+72.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+73.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+74.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+75.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+76.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+77.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+78.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+79.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+80.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+81.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+82.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+83.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+84.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+85.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+86.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+87.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+88.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+89.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+90.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+91.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+92.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+93.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+94.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+95.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+96.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+97.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+98.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+99.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+100.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+101.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+102.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+103.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+104.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/DrivingDirectionItem.h:52:19: 'LengthCost' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual unsigned LengthCost() const;
+	Отпущенников Илья Владимирович
+	<i.otpuschennikov@2gis.ru>
+	----------------------------------------------------------- 
+
+105.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+106.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+107.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+108.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+109.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+110.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+111.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+112.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+113.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+114.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+115.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+116.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+117.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+118.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+119.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+120.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+121.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+122.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+123.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+124.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+125.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+126.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+127.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+128.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+129.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+130.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+131.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+132.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+133.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+134.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+135.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:42:28: 'Serialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Json::Value Serialize(SerializerType serialize_type) const
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+136.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/BaseInstruction.h:50:15: 'DeSerialize' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool DeSerialize(const Json::Value& json)
+	Губер Михаил Борисович
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+137.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/TripEventBuilder.cpp:290:33: comparison of integers of different signs: 'const size_t' (aka 'const unsigned long') and 'int' [-Wsign-compare]
+	((attr._.maneuver_.loc_id_ != ~0) ? tstd::ustring(edge_next->ext_attrs.strings_.at(attr._.maneuver_.loc_id_)) : tstd::ustring())
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+138.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_DrivingDirection/src/TripEventBuilder.cpp:307:32: comparison of integers of different signs: 'const size_t' (aka 'const unsigned long') and 'int' [-Wsign-compare]
+	((attr._.barrier_.loc_id_ != ~0) ? tstd::ustring(edge_to->ext_attrs.strings_.at(attr._.barrier_.loc_id_)) : tstd::ustring())
+	Отпущенников Илья Владимирович
+	<i.otpuschennikov@2gis.ru>
+	----------------------------------------------------------- 
+
+139.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+140.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/BitTile.cpp:61:4: field 'counter_' will be initialized after field 'thick_' [-Wreorder]
+	, counter_(0)
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+141.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+142.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+143.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+144.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.cpp:958:31: unused typedef 'SegmentType' [-Wunused-local-typedef]
+	typedef GeoLib::PlaneSegment SegmentType;
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+145.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+146.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/Heuristic.cpp:35:4: field 'rm_' will be initialized after field 'uncovered_road_speed_' [-Wreorder]
+	, rm_(graph->GetRestrictionMatrix())
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+147.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+148.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/Route.cpp:12:4: field 'edges_' will be initialized after field 'time_cost_' [-Wreorder]
+	: edges_(new RouteEdgeContainer)
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+149.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/Route.cpp:21:4: field 'edges_' will be initialized after field 'time_cost_' [-Wreorder]
+	: edges_(new RouteEdgeContainer)
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+150.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+151.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+152.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+153.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+154.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+155.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+156.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+157.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_BTreeUtils/src/TableBuilder.cpp:500:134: field 'ready_' will be initialized after field 'name_' [-Wreorder]
+	ITableBuilder::ITableBuilder(DbBuilder *db, const char *name, const std::vector<FieldDef> &cols, ComprSchema cs, const char *meta) : ready_(false)
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+158.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_BTreeUtils/src/TableBuilder.cpp:502:4: field 'columns_' will be initialized after field 'cs_' [-Wreorder]
+	, columns_(cols)
+	Boris Muratshin
+	<b.muratshin@2gis.ru>
+	----------------------------------------------------------- 
+
+159.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_BTreeUtils/src/TableBuilder.cpp:506:4: field 'oid_' will be initialized after field 'has_spatial_data_' [-Wreorder]
+	, oid_(0)
+	Boris Muratshin
+	<b.muratshin@2gis.ru>
+	----------------------------------------------------------- 
+
+160.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_BTreeUtils/src/TableDef.cpp:16:4: field 'accessor_' will be initialized after field 'cache_' [-Wreorder]
+	, accessor_(accessor)
+	Кашкута Игорь Николаевич
+	<i.kashkuta@2gis.ru>
+	----------------------------------------------------------- 
+
+161.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_JsonEngine/src/CarRoutingJsonEngine.cpp:57:4: field 'engine_' will be initialized after field 'common_resources_dir_' [-Wreorder]
+	: engine_(new CarRouting::Engine(data, CarRouting::RoutingType::RoutingTypeCar, 8192, 8192))
+	Отпущенников Илья Владимирович
+	<i.otpuschennikov@2gis.ru>
+	----------------------------------------------------------- 
+
+162.	/Users/va.smirnov/2gis/v4_env/v4sdk/ctx/Projects/Ctx_Utils/Source/RouteGeometry.cpp:62:20: comparison of integers of different signs: 'std::ptrdiff_t' (aka 'long') and 'const Ctx::PlatformContainer::size_type' (aka 'const unsigned long') [-Wsign-compare]
+	if (min_distance == size)
+	Иптышев Дмитрий Алексеевич
+	<d.iptyshev@2gis.ru>
+	----------------------------------------------------------- 
+
+163.	/Users/va.smirnov/2gis/v4_env/v4sdk/ctx/Projects/Ctx_JsonLevel/Source/Searcher.h:65:22: 'Ctx::Json::Searcher::Search' hides overloaded virtual functions [-Woverloaded-virtual]
+	virtual std::string Search(const std::string& request, const Canceler& canceler = Canceler()) const;
+	Пономарёв Станислав Андреевич
+	<s.ponomarev@2gis.ru>
+	----------------------------------------------------------- 
+
+164.	/Users/va.smirnov/2gis/v4_env/v4sdk/ctx/Projects/Ctx_JsonLevel/Source/Searcher.h:65:22: 'Ctx::Json::Searcher::Search' hides overloaded virtual functions [-Woverloaded-virtual]
+	virtual std::string Search(const std::string& request, const Canceler& canceler = Canceler()) const;
+	Пономарёв Станислав Андреевич
+	<s.ponomarev@2gis.ru>
+	----------------------------------------------------------- 
+
+165.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+166.	/Users/va.smirnov/2gis/v4_env/v4sdk/carrouting/Projects/CarRouting_Core/src/GraphDB.h:75:24: 'GetVersion' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual const Version GetVersion() const { return graph_db_version_; };
+	Губер Михаил
+	<m.guber@2gis.ru>
+	----------------------------------------------------------- 
+
+167.	/Users/va.smirnov/2gis/v4_env/v4sdk/ctx/Projects/Ctx_Core/Source/PostProcessing/PostProcessor.inl:173:11: comparison of integers of different signs: 'int' and 'const InnerRoutes::size_type' (aka 'const unsigned long') [-Wsign-compare]
+	; index != route_count
+	Пономарёв Станислав Андреевич
+	<s.ponomarev@2gis.ru>
+	----------------------------------------------------------- 
+
+168.	/Users/va.smirnov/2gis/v4_env/v4sdk/ctx/Projects/Ctx_Core/Source/PostProcessing/PostProcessor.inl:173:11: comparison of integers of different signs: 'int' and 'const InnerRoutes::size_type' (aka 'const unsigned long') [-Wsign-compare]
+	; index != route_count
+	Пономарёв Станислав Андреевич
+	<s.ponomarev@2gis.ru>
+	----------------------------------------------------------- 
+
+169.	/Users/va.smirnov/2gis/v4_env/v4sdk/ctx/Projects/Ctx_Core/Source/PostProcessing/PostProcessor.cpp:837:41: comparison of integers of different signs: 'std::ptrdiff_t' (aka 'long') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+	if (min_distance_between_start_finish == platforms->size())
+	Пономарёв Станислав Андреевич
+	<s.ponomarev@2gis.ru>
+	----------------------------------------------------------- 
+
+170.	/Users/va.smirnov/2gis/v4_env/v4sdk/ctx/Projects/Ctx_Core/Source/PostProcessing/PostProcessor.inl:173:11: comparison of integers of different signs: 'int' and 'const InnerRoutes::size_type' (aka 'const unsigned long') [-Wsign-compare]
+	; index != route_count
+	Пономарёв Станислав Андреевич
+	<s.ponomarev@2gis.ru>
+	----------------------------------------------------------- 
+
+171.	/Users/va.smirnov/2gis/v4_env/v4sdk/v4core/Projects/FollowModule/src/FollowMode.cpp:33:15: 'WaitingForPosition' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool WaitingForPosition() const;
+	Ильиных Данил Сергеевич
+	<d.ilinyh@2gis.ru>
+	----------------------------------------------------------- 
+
+172.	/Users/va.smirnov/2gis/v4_env/v4sdk/v4core/Projects/FollowModule/src/FollowMode.cpp:34:15: 'WaitingForDirection' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool WaitingForDirection() const;
+	Ильиных Данил Сергеевич
+	<d.ilinyh@2gis.ru>
+	----------------------------------------------------------- 
+
+173.	/Users/va.smirnov/2gis/v4_env/v4sdk/v4core/Projects/FollowModule/src/FollowMode.cpp:36:15: 'InFlight' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool InFlight() const;
+	Ильиных Данил Сергеевич
+	<d.ilinyh@2gis.ru>
+	----------------------------------------------------------- 
+
+174.	/Users/va.smirnov/2gis/v4_env/v4sdk/v4core/Projects/FollowModule/src/FollowMode.cpp:37:15: 'InRotate' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool InRotate() const;
+	Ильиных Данил Сергеевич
+	<d.ilinyh@2gis.ru>
+	----------------------------------------------------------- 
+
+175.	/Users/va.smirnov/2gis/v4_env/v4sdk/v4core/Projects/FollowModule/src/FollowMode.cpp:38:15: 'InScaleChange' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+	virtual bool InScaleChange() const;
+	Ильиных Данил Сергеевич
+	<d.ilinyh@2gis.ru>
+	----------------------------------------------------------- 
+
