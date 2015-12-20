@@ -9,7 +9,15 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var reload = require('./routes/reload');
 
+var warnings = require('./warnings');
+
 var app = express();
+
+// Warnings Logic Init
+
+var allWarnings = new warnings.Create();
+
+// Express Application init
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

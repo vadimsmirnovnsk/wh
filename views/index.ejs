@@ -8,5 +8,20 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
     <p>And now we just want to discover thru our best warning makers in project</p>
+
+    <table>
+	<tr>
+		<th>Author</th><th>E-mail</th><th>Description</th><th>Place</th>
+	</tr>
+
+	<% for (var i = 0; i < warnings.length; i++) { %>
+    <tr>
+		<td><%= warnings[i].author %></td>
+		<td><%= warnings[i].email %></td>
+		<td><%= warnings[i].description %></td>
+		<td><%= warnings[i].place %></td>
+    </tr>    
+   <% } %>
+</table>
   </body>
 </html>
