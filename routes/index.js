@@ -2,10 +2,9 @@ var express = require('express');
 var warnings = require('../warnings');
 var router = express.Router();
 
-var allWarnings = new warnings.Create();
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
+	var allWarnings = new warnings.Create();
 	var sortedWarnings = allWarnings.warnings;
 	sortedWarnings.sort(dynamicSort('email'));
 	res.render('index', { title: 'Warning Heroes: v4iOS', warnings: sortedWarnings });

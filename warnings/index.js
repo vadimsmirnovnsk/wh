@@ -16,10 +16,10 @@ function Warning (description, place, author, email) {
 function Create() {
 	if (!fileHasBeenLoaded) {
 		reloadSync();
+		cachedWarnings = parse(fileData);
 	};
 
 	this.fileStat = fileStat;
-	cachedWarnings = parse(fileData);
 	this.warnings = cachedWarnings;
 
 }
@@ -108,6 +108,7 @@ function reloadAsync() {
 	fs.stat(fileName, function(err, stats) {
 		if (err) {
 			console.log(err);
+			return;
 		};
 
 		if (stats.isFile() == true) 
@@ -119,6 +120,7 @@ function reloadAsync() {
 					console.log(err);
 				} else {
 					fileData = data;
+					cachedWarnings = parse(fileData);
 				}
 			});
 		}
@@ -129,6 +131,5 @@ function reloadAsync() {
 
 exports.Create = Create;
 exports.reloadAsync = reloadAsync;
-exports.cachedWarnings = cachedWarnings;
 
 console.log('Warnings module is required.');
